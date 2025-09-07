@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Card</title>
+    <style>
+        body {
+            background: #000000;
+        }
+        .profile-card {
+            width: 320px;
+            margin: 60px auto;
+            background: #ffb6b6;
+            border-radius: 15px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+            text-align: center;
+            padding: 32px 24px;
+            font-family: Arial, sans-serif;
+        }
+        .profile-card img.profile {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 18px;
+            border: 3px solid #000409;
+        }
+        .profile-card h2 {
+            margin: 2px 0 6px 0;
+            font-size: 24px;
+        }
+        .profile-card p {
+            color: #ff0000;
+            margin: 6px 0;
+            font-size: 16px;
+        }
+        .profile-card .btn {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 9px 24px;
+            background: #007bff;
+            color: #fbfbfb;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 17px;
+            transition: background 0.2s;
+        }
+        .profile-card .btn:hover {
+            background: #44688e;
+        }
+        .social-links {
+            margin-top: 32px;
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+        }
+        .social-links a {
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+        }
+        .social-links img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            background: #f8f4f4;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="ishwar.jpg" alt="Profile Picture" class="profile">
+        <h2>ishwar soni</h2>
+        <p>Web Developer</p>
+        <p>Bhopal, Madhya Pradesh</p>
+        <a href="mailto:ishwarxeternal@gmail.com" class="btn">Contact</a>
+        <div class="social-links">
+            <!-- Instagram -->
+            <a title="Instagram">
+                <img src="icons8-instagram-48.png" alt="Instagram">
+            </a>
+            <!-- Facebook -->
+            <a title="Facebook">
+                <img src="facebook-logo-gold_910943-200.jpg" alt="Facebook">
+            </a>
+            <!-- LinkedIn -->
+            <a title="LinkedIn">
+                <img src="linkedin.jpg" alt="LinkedIn">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
